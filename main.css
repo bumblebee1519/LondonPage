@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: Roboto;
+}
+body{
+  font-family: Roboto;
+}
+
+/* NAVIGATION*/
+.card-header{
+  background-color: #fff;
+  font-size: .7rem;
+}
+.nav-link{
+  color: #3CA2E4;
+}
+.nav-link:hover{
+  color: grey;
+}
+.card{
+  border-style: none;
+}
+
+/* CARD IMG */
+.card-title{
+  font-family: Roboto, sans-serif;
+  color: grey;
+  font-size: 5rem;
+  font-weight: 900;
+  margin-left: 6rem;
+  margin-top: 4rem;
+}
+.card-img{
+  clip-path: polygon(70% 0, 100% 0, 100% 100%, 0 100%);
+}
+.card-text{
+  color: grey;
+  margin-left: 6rem;
+}
+
+/* Media Query */
+@media screen and (max-width: 1400px) {
+
+}
+@media screen and (max-width: 760px) {
+.card-img-overlay{
+  font-size: 2rem;
+  text-align: center;
+}
+.card-img-overlay h1{
+  font-size: 1.2rem;
+  color: #fff;
+}
+.card-img-overlay p{
+  color: #fff;
+  font-size: .6rem;
+  text-align: center;
+}
+
+}
+@media screen and (max-width: 550px) {
+  .card-img-overlay{
+    text-align: center;
+    margin-left: 5rem;
+  }
+  .card-img-overlay h1{
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .card-img-overlay p{
+    color: #fff;
+    font-size: .6rem;
+    text-align: center;
+  }
+}
